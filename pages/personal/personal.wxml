@@ -1,4 +1,13 @@
 <!--pages/personal/personal.wxml-->
-<view class="pbg-ctr p20">
-
+<view>
+  <view class="pers theme-bg">
+    当前拥有🍩：800
+  </view>
+  <view class="pers-ctr" wx:for="{{list}}" wx:for-item="list" wx:key="name">
+    <view class="pers-str-item {{list.children.length - 1 !== index ? 'pers-str-item-bb' : ''}} {{(list.children.length > 2 && (index !== 0 || index !== list.children.length - 1)) ? 'pers-str-item-mm' : ''}}" wx:for="{{list.children}}" wx:for-item="item" wx:key="index">
+      <text class="str-icon">😄</text>
+      <text class="str-name">{{item.name}}</text>
+      <text>⭐</text>
+    </view>
+  </view>
 </view>

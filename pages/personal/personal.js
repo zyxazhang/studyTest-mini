@@ -5,7 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list: [
+      {
+        name: '1',
+        children: [
+          { name: '各科成绩', icon: '' },
+          { name: '我的奖品', icon: '' },
+          { name: '日志', icon: '' }
+        ]
+      },
+      {
+        name: '2',
+        children: [
+          {
+            name: '意见反馈',
+            icon: ''
+          },
+          {
+            name: '联系作者',
+            icon: ''
+          }
+        ]
+      },
+      {
+        name: '3',
+        children: [
+          {
+            name: '账号设置',
+            icon: ''
+          }
+        ]
+      },
+    ]
   },
 
   /**
