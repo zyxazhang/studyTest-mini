@@ -1,13 +1,18 @@
 <!--pages/personal/personal.wxml-->
 <view>
+  <view class="user">
+    <image class="user-img" src="../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg"></image>
+    <text class="'user-name">我可莉嗨了</text>
+    <text class="male iconfont icon-icmale"></text>
+  </view>
   <view class="pers theme-bg">
     当前拥有🍩：800
   </view>
   <view class="pers-ctr" wx:for="{{list}}" wx:for-item="list" wx:key="name">
-    <view class="pers-str-item {{list.children.length - 1 !== index ? 'pers-str-item-bb' : ''}} {{(list.children.length > 2 && (index !== 0 || index !== list.children.length - 1)) ? 'pers-str-item-mm' : ''}}" wx:for="{{list.children}}" wx:for-item="item" wx:key="index">
-      <text class="str-icon">😄</text>
+    <view class="pers-str-item {{list.children.length - 1 !== index ? 'pers-str-item-bb' : ''}}" wx:for="{{list.children}}" wx:for-item="item" wx:key="index" bindtap="handleJump" data-id="{{item.key}}">
+      <text class="str-icon iconfont {{item.icon}}"></text>
       <text class="str-name">{{item.name}}</text>
-      <text>⭐</text>
+      <text class="str-open iconfont icon-icon_on_the_right"></text>
     </view>
   </view>
 </view>

@@ -1,4 +1,26 @@
 /* pages/personal/personal.wxss */
+.user {
+  width: 100%;
+  height: 200rpx;
+  padding: 30rpx 40rpx 40rpx 0rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.user .user-img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  /* background-color: aqua; */
+}
+.user .male {
+  color: #ec95bc;
+}
+.user .user-name {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
 .pers {
   width: 100%;
   height: 120rpx;
@@ -20,12 +42,26 @@
 }
 .pers-str-item {
   width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.pers-str-item:nth-last-child(1) {
+  height: 80rpx;
+  /* line-height: 90rpx; */
+}
+.pers-str-item:nth-child(1) {
   height: 80rpx;
   line-height: 80rpx;
 }
+.pers-str-item .str-icon {
+  
+}
+.pers-str-item .str-name {
+  margin-left: 20rpx;
+}
+.pers-str-item .str-open {
+  float: right;
+}
 .pers-str-item-bb {
   border-bottom: 2rpx solid #eeeeee;
-}
-.pers-str-item-mm {
-  margin-bottom: 20rpx;
 }

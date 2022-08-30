@@ -12,14 +12,18 @@
           "name": "",
           "pathName": "pages/exchange/exchange",
           "query": "",
-          "launchMode": "default",
           "scene": null
         },
         {
           "name": "",
           "pathName": "pages/personal/personal",
           "query": "",
-          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/personal/personal",
+          "pathName": "pages/personal/personal",
+          "query": "",
           "scene": null
         }
       ]

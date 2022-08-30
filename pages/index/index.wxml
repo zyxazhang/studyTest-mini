@@ -1,7 +1,7 @@
 <view class="pbg-ctr">
   <!-- 轮播 -->
   <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{background}}" wx:key="*this">
+    <block wx:for="{{background}}" wx:key="index">
       <swiper-item class="swiper-item" bindtap="bindViewTap">
         <image class="image" src="{{item.url}}" alt=""/>
       </swiper-item>

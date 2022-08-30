@@ -1,6 +1,6 @@
 // pages/personal/personal.js
 Page({
-
+  
   /**
    * 页面的初始数据
    */
@@ -9,9 +9,10 @@ Page({
       {
         name: '1',
         children: [
-          { name: '各科成绩', icon: '' },
-          { name: '我的奖品', icon: '' },
-          { name: '日志', icon: '' }
+          { name: '各科成绩', key: 'score', icon: 'icon-chengjiguanli-01' },
+          { name: '我的奖品', key: 'prize', icon: 'icon-fuli-selected' },
+          { name: '日志', key: 'log', icon: 'icon-rizhi' },
+          { name: '地址管理', key: 'addressManagement', icon: 'icon-dizhiguanli' },
         ]
       },
       {
@@ -19,11 +20,13 @@ Page({
         children: [
           {
             name: '意见反馈',
-            icon: ''
+            key: 'feedback', 
+            icon: 'icon-yijianfankui'
           },
           {
             name: '联系作者',
-            icon: ''
+            key: 'contactAuthor', 
+            icon: 'icon-duanxin'
           }
         ]
       },
@@ -32,13 +35,16 @@ Page({
         children: [
           {
             name: '账号设置',
-            icon: ''
+            key: 'setting', 
+            icon: 'icon-settings'
           }
         ]
       },
     ]
   },
-
+  handleJump(e) {
+    console.log('sasds', e)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
