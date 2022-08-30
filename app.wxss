@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import './static/iconfont/iconfont.wxss';
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +9,22 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.p20 {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+/* 主题色 */
+.theme {
+  color: #3457fb;
+}
+.theme-bg {
+  background-color: #3457fb;
+  color: #fff;
+}
+/* 页面 */
+.pbg-ctr {
+  width: 100%;
+  height: calc(100%);
+  background-color: #f6f6f7;
+}

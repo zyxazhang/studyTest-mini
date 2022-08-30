@@ -4,18 +4,20 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    background: [
+      { url: '../../static/images/0e5de6ce6e959f0d9b6d2f4a2909326.jpg'},
+      { url: '../../static/images/7e1661e730e76fbc731f24bafe0e53b.jpg'},
+      { url: '../../static/images/fe73063ee95726e854130b47cb83366.jpg'}
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: false,
+    interval: 2000,
+    duration: 500
   },
   // 事件处理函数
   bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    console.log('ssssss');
   },
   onLoad() {
     if (wx.getUserProfile) {

@@ -5,7 +5,57 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count: 10,
+    welfareList: [
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 1000,
+        url: '../../static/images/619f3fa9eb52e4f95c6a73d29502a57.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 500,
+        url: '../../static/images/92ebe698b4289c7b9a41dab43b9364c.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 2000,
+        url: '../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 2000,
+        url: '../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 2000,
+        url: '../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 2000,
+        url: '../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 1000,
+        url: '../../static/images/619f3fa9eb52e4f95c6a73d29502a57.jpg',
+      },
+      {
+        id: 1,
+        name: '可莉的生日',
+        need: 1000,
+        url: '../../static/images/619f3fa9eb52e4f95c6a73d29502a57.jpg',
+      },
+    ]
   },
 
   /**

@@ -18,26 +18,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "./static/images/tabbar/主页.png",
+        "selectedIconPath": "./static/images/tabbar/主页-copy.png"
       },
       {
         "pagePath": "pages/logs/logs",
         "text": "日志",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "./static/images/tabbar/日志.png",
+        "selectedIconPath": "./static/images/tabbar/日志-copy.png"
       },
       {
         "pagePath": "pages/exchange/exchange",
         "text": "福利",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "./static/images/tabbar/福利.png",
+        "selectedIconPath": "./static/images/tabbar/福利-copy.png"
       },
       {
         "pagePath": "pages/personal/personal",
         "text": "个人",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "./static/images/tabbar/个人 (2).png",
+        "selectedIconPath": "./static/images/tabbar/个人 (2)-copy.png"
       }
     ]
   },

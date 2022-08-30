@@ -1,19 +1,63 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
-}
-
-.userinfo-avatar {
+.swiper {
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
   overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+}
+.swiper-item {
+  width: 100%;
+  height: 100%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.score {
+  width: 100%;
+  height: 80rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.score .score-btn {
+  width: 25%;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 8rpx;
+  color: #fff;
+}
+.target {
+  background-color: skyblue;
+}
+.trend {
+  background-color: rgb(161, 187, 241);
+}
+.application {
+  background-color: rgb(125, 247, 25);
+}
+
+.func {
+  width: 100%;
+  height: 200rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.func .func-item {
+  border-radius: 8rpx;
+  width: 50%;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #4f90f9;
+  border: 4rpx solid #fff;
+  box-sizing: border-box;
+  color: #fff;
 }

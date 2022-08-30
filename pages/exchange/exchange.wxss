@@ -1,1 +1,52 @@
 /* pages/exchange/exchange.wxss */
+.ye {
+  
+} 
+.welfare-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: '#d1d1d1';
+}
+.welfare-list .welfare-container {
+  width: 48%;
+  height: 280rpx;
+  background-color: '#29c4f0';
+  position: relative;
+}
+
+.welfare-list .welfare-container image {
+  width: 100%;
+  height: 200rpx;
+  border-radius: 8rpx;
+}
+.welfare-list .welfare-container .oper {
+  /* display: flex; */
+  height: 50rpx;
+}
+.welfare-list .welfare-container .name {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 40rpx;
+  top: 160rpx;
+  line-height: 40rpx;
+  padding: 0 4rpx;
+  left: 0;
+  background-color: rgb(17, 21, 58);
+  color: #ffffff;
+  opacity: 0.5;
+  font-size: 24rpx;
+  box-sizing: border-box;
+}
+.welfare-list .welfare-container .oper .need {
+  font-size: 24rpx;
+}
+.welfare-list .welfare-container .oper .exchange-btn {
+  font-size: 24rpx;
+  width: 120rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 16rpx;
+  float: right;
+}

@@ -1,2 +1,15 @@
 <!--pages/exchange/exchange.wxml-->
-<text>pages/exchange/exchange.wxml</text>
+<view class="pbg-ctr">
+  <view class="ye p20">当前积分：{{ count }}</view>
+  <view class="welfare-list p20">
+    <view class="welfare-container" wx:for="{{welfareList}}" wx:key="*this" wx:for-item="welfare">
+      <image src="{{ welfare.url }}"></image>
+      <text class="name">{{welfare.name}}</text>
+      <view class="oper">
+        <text>🍩</text>
+        <text class="need">{{welfare.need}}</text>
+        <text class="exchange-btn theme-bg">兑换</text>
+      </view>
+    </view>
+  </view>
+</view>
