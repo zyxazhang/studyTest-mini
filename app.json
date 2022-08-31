@@ -3,7 +3,14 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/exchange/exchange",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/components/feedback/feedback",
+    "pages/components/addressManagement/addressManagement",
+    "pages/components/contactAuthor/contactAuthor",
+    "pages/components/log/log",
+    "pages/components/prize/prize",
+    "pages/components/score/score",
+    "pages/components/setting/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",

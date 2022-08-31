@@ -1,0 +1,15 @@
+/* pages/feedback/feedback.wxss */
+.text {
+  width: 100%;
+  border: 4rpx solid #3457fb;
+  border-radius: 8rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.btn {
+  width: 100%;
+  background: #3457fb;
+  color: #fff;
+  margin-top: 20rpx;
+}

@@ -5,9 +5,9 @@ const app = getApp()
 Page({
   data: {
     background: [
-      { url: '../../static/images/0e5de6ce6e959f0d9b6d2f4a2909326.jpg'},
-      { url: '../../static/images/7e1661e730e76fbc731f24bafe0e53b.jpg'},
-      { url: '../../static/images/fe73063ee95726e854130b47cb83366.jpg'}
+      { url: '../../static/images/b1.jpg'},
+      { url: '../../static/images/b2.jpg'},
+      { url: '../../static/images/b3.jpg'}
     ],
     indicatorDots: true,
     vertical: false,

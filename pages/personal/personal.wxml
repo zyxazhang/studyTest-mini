@@ -1,7 +1,7 @@
 <!--pages/personal/personal.wxml-->
 <view>
   <view class="user">
-    <image class="user-img" src="../../static/images/f4226202fd9bbde755c448a43c5bb2e.jpg"></image>
+    <image class="user-img" src="../../static/images/naxida.jpg"></image>
     <text class="'user-name">我可莉嗨了</text>
     <text class="male iconfont icon-icmale"></text>
   </view>

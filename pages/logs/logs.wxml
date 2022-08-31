@@ -1,6 +1,15 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log.date}}</text>
-  </block>
+<view class="search">
+  <input class="input" maxlength="10" placeholder="最大输入长度为10" />
+</view>
+<view class="placeholder"></view>
+<view class="art" wx:for="{{list}}" wx:for-item="item" wx:key="index">
+  <view class="img">
+    <image src="{{item.img}}"></image>
+  </view>
+  <view class="content">
+    <text class="name">{{item.name}}</text>
+    <text class="desc">{{item.desc}}</text>
+  </view>
+  <view class="time">{{item.time}}</view>
 </view>

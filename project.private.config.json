@@ -25,6 +25,13 @@
           "pathName": "pages/personal/personal",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/logs/logs",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

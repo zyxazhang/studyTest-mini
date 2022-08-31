@@ -1,0 +1,5 @@
+<!--pages/feedback/feedback.wxml-->
+<view>
+    <textarea class="text" placeholder="感谢您的支持，留下点意见吧！！！" name="textarea"/>
+    <button class="btn"> 提交 </button>
+</view>

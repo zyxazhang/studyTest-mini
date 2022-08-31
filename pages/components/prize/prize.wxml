@@ -1,0 +1,5 @@
+<!--pages/components/prize/prize.wxml-->
+<view style="display: flex; flex-direction: column; align-items: center; margin-top: 200rpx;">
+  <icon class="icon-box-img" type="info" size="93"></icon>
+  <text>该功能还未上线，请耐心等待!</text>
+</view>

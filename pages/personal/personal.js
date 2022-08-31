@@ -43,7 +43,9 @@ Page({
     ]
   },
   handleJump(e) {
-    console.log('sasds', e)
+    console.log('sasds', e.currentTarget.dataset.id)
+    const url = `/pages/components/${e.currentTarget.dataset.id}/${e.currentTarget.dataset.id}` 
+    wx.navigateTo({ url})
   },
   /**
    * 生命周期函数--监听页面加载
