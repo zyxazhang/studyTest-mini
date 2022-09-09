@@ -10,7 +10,8 @@
     "pages/components/log/log",
     "pages/components/prize/prize",
     "pages/components/score/score",
-    "pages/components/setting/setting"
+    "pages/components/setting/setting",
+    "pages/details/details"
   ],
   "window": {
     "backgroundTextStyle": "light",

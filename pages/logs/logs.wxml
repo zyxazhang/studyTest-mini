@@ -3,7 +3,7 @@
   <input class="input" maxlength="10" placeholder="最大输入长度为10" />
 </view>
 <view class="placeholder"></view>
-<view class="art" wx:for="{{list}}" wx:for-item="item" wx:key="index">
+<view class="art" wx:for="{{list}}" wx:for-item="item" wx:key="index" bindtap="viewDetail">
   <view class="img">
     <image src="{{item.img}}"></image>
   </view>

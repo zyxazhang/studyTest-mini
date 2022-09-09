@@ -16,6 +16,10 @@ Page({
       { name: '这是测试10', desc: 'dqweqwwwdqwdqwdqqwwwwwwwwwwwwwwweqweqw',  time: '18: 00', img: '../../static/images/naxida.jpg' }
     ]
   },
+  viewDetail(e) {
+    console.log(e);
+    // wx.navigateTo({ url: 'pages/details/details' })
+  },
   onLoad() {
   }
 })
